@@ -1,5 +1,7 @@
 d<-read.table("C:/Users/Administrator/Desktop/R/CDI.txt")
 #project
+#V5:Toal population; V8:Number of active physicians; V9:Number of hospital beds;
+#V12: Percent bachelor's degrees; V15:Per capita income; V16:Toal personal income
 #1.43
 #Regress the predictor with different variable.
 #Calling ANOVA to assess SSE,SSR,etc
@@ -91,6 +93,7 @@ qqnorm(res3)
 
 
 #Part II
+#V4:Land area(Square miles) V17:Geographic region; V7: Percent of population 65 or older
 x1<-d$V5
 x2<-d$V4
 x3<-d$V16
